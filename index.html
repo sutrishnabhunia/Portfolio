@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="bg-primary py-lg-4 text-white text-center">
+      <div class="container">
+        <h1 class="display-2">Welcome to My Portfolio</h1>
+        <p class="fs-3 lead">I am Tech Enthusiast</p>
+      </div>
+    </header>
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">About me</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              class="img-fluid"
+              src="https://www.digitalgrads.com/wp-content/uploads/2020/08/portfolio1.jpg"
+              alt="my-image"
+            />
+          </div>
+          <div class="col-md-6 my-auto">
+            <p class="fs-5">
+              A passionate learner and Tech enthusiast, I have decided to dive headfirst into Full Stack Development. 
+              With the knowledge I have gained from this fascinating course, I can build fully functional, user-friendly, and feature-rich web apps. 
+              My insatiable curiosity makes me look forward to the chances and difficulties ahead with great anticipation. 
+              My ultimate goal is to become an expert in Full Stack Development through in-depth study and practical application. 
+              Follow me as I learn the fundamentals of this intriguing subject and launch myself into a successful career in technology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Portfolio" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Portfolio</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/448/826/datas/original.png"
+                height="250px"
+                alt="project-image"
+              />
+              <div
+                class="card-body mx-auto justify-content-center d-flex flex-column text-center"
+              >
+                <h5 class="card-title">Brick Breaker Project</h5>
+                <div class="card-text">
+                  Brick Break is an engaging and addictive game that challenges players to break through a wall of bricks using a paddle and a bouncing ball.
+                </div>
+                <button class="btn mt-4 btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://www.kopatech.com/images/blogs/factors-which-influence-the-consumer-to-use-an-online-food-delivery-system.jpg"
+                height="250px"
+                alt="project-image"
+              />
+              <div
+                class="card-body mx-auto justify-content-center d-flex flex-column text-center"
+              >
+                <h5 class="card-title">Food Delivery Project</h5>
+                <div class="card-text">
+                  It is a frontend project made related to food delivery system.
+                </div>
+                <button class="btn mt-4 btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwasOC505L3f6retr0hBAuf5BxDWA3MxTRJA&usqp=CAU"
+                height="250px"
+                alt="project-image"
+              />
+              <div
+                class="card-body mx-auto justify-content-center d-flex flex-column text-center"
+              >
+                <h5 class="card-title">Soduku Game</h5>
+                <div class="card-text">
+                Built with Java's versatility, this project showcases problem-solving skills and demonstrates proficiency in data structures and algorithms.  
+                </div>
+                <button class="btn mt-4 btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact</h2>
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  rows="5"
+                  class="form-control"
+                  id="name"
+                  required
+                ></textarea>
+              </div>
+              <button class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <footer class="bg-dark pt-3 pb-3 text-white text-center">
+      <div class="container">
+        <p class="fs-6">
+          &copy; 2023 My Portfolio. All rights reserved by Ajith. 
+        </p>
+      </div>
+    </footer> -->
+
+    <footer class="bg-dark text-white text-center py-3">
+      2023 My Portfolio. All Rights Reserved Prince
+    </footer>
+
+    <!-- <footer class="py-3 bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <p class="text-center">&copy; 2023 My Portfolio. All rights reserved. Abhishek</p>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+
+    <!-- <footer>
+      <div class="text-center p-3 text-white bg-dark">
+        &copy; 2023 My Portfolio. All rights reserved. Vijay Singh
+      </div>
+    </footer> -->
+
+    <!-- <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="col-md-6 py-3 mx-auto">
+              <p class="text-center">&copy; 2023 My Portfolio. All rights reserved. Bandana</p>
+      </div></div>
+      </footer> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
